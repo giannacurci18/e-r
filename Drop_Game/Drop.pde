@@ -12,7 +12,7 @@ class Drop{
     y = -r*4;
     x = random(width);
     speed = random(1,5);
-    c = color(50,100,150);
+    c = color(random(255));
   }
   void move(){
     y += speed;

@@ -7,7 +7,7 @@ boolean gameOver = false;
 
 int score = 0;
 int level = 1;
-int lives = 15;
+int lives = 23;
 int levelCounter = 0;
 PFont f;
 
@@ -24,12 +24,12 @@ void setup() {
 
 
 void draw() {
-  background(255,13,25,180);
+  background(255,138,125,180);
   if (gameOver) {
     textFont(f, 48);
     textAlign(CENTER);
-    fill(255, 0, 0);
-    text("Game Over", width/2, height/2);
+    fill(random(255),random(255),random(255));
+    text("LOSER LOSER LOSER", width/2, height/2);
   } else {
     catcher.setLocation(mouseX, mouseY);
     catcher.display();

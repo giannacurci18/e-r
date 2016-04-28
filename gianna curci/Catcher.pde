@@ -5,7 +5,7 @@ class Catcher {
 
   Catcher(float tempR) {
     r = tempR;
-    col = color(125, 210, 230);
+    col = color(50, 10, 10);
     x= 0;
     y= 0;
   }
